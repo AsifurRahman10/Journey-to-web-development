@@ -1,0 +1,56 @@
+/* import link */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Landing page style */
+.landing-page{
+    width: 100%;
+    height: 652px;
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 26px;
+}
+
+.landing-page img{
+    width: 241px;
+    height: 241px;
+    margin-bottom: 32px;
+}
+
+.landing-page h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+
+.landing-page p{
+    font-size: 16px;
+    color: #0D1321;
+}
+
+.landing-page .btn-primary{
+    padding: 21px 24px;
+    color: #FFFFFF;
+    background-color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 32px;
+}
