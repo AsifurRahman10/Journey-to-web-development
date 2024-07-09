@@ -14,6 +14,7 @@ body{
 }
 
 /* Landing page style */
+
 .landing-page{
     width: 100%;
     height: 652px;
@@ -22,6 +23,7 @@ body{
     background-size: 100% 100%;
     text-align: center;
     padding-top: 26px;
+    margin-bottom: 74px;
 }
 
 .landing-page img{
@@ -54,3 +56,111 @@ body{
     border: none;
     margin-top: 32px;
 }
+
+/* banner - 1 style */
+
+.banner-1{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(13, 19, 33, 0.02);
+    height: 1395px;
+}
+
+.banner-1 h1{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    padding-top: 80px;
+}
+
+.banner-1 p{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    margin-top: 34px;
+}
+
+.banner-cards{
+    margin: 0px auto;
+    align-items: center;
+    margin: 58px 0 0 0;
+}
+
+.card{
+    /* border: 2px solid red; */
+    text-align: left;
+    height: 336px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    background-image: linear-gradient(to right,rgb(255, 255, 255, 1), rgba(255, 255, 255, 0) );
+    margin: 0px auto;
+    border-radius: 16px;
+}
+
+
+#card-description{
+    margin-top: 16px;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+}
+
+.card-text h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.btn-2{
+    width: 150px;
+    height: 48px;
+    border: none;
+    margin-top: 32px;
+    border: 1px solid 
+    rgba(13, 19, 33, 0.6);
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 0.8);
+}
+
+#color-1{
+    background-image: linear-gradient(to right,rgb(255, 255, 255, 0), rgba(255, 255, 255, 1) );
+}
+
+#color-2{
+    background-image: linear-gradient(to right,rgb(255, 255, 255, 1), rgba(255, 255, 255, 0) );
+}
+
+.my-inspiration{
+    text-align: center;
+    height: 777px;
+    margin-top: 90px;
+    margin-bottom: 151px;
+    
+}
+
+.video{
+    width: 1140px;
+    height: 614px;
+    border-style:solid;
+    border-width:1px;
+    padding: 32px;
+    border-color: rgba(13, 19, 33, 0.20);
+    border-radius: 16px;
+    margin: 0px auto;
+    
+}
+
+.my-inspiration h1{
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 32px;
+}
+.my-inspiration p{
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.8);
+    padding-bottom: 48px;
+}
+
