@@ -244,6 +244,16 @@ body{
     background-color: rgba(255, 223, 0, 0.05);
 }
 
+.target-button{
+    border: none;
+    padding: 0!important;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    background: none!important;
+}
+
 /* Support section style */
 
 .support{
