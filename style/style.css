@@ -100,6 +100,19 @@ body{
 }
 
 
+
+.card-alignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 90px;
+}
+
+.second-card{
+    margin-right: 40px;
+}
+
+
 #card-description{
     margin-top: 16px;
     font-size: 16px;
@@ -133,6 +146,8 @@ body{
     background-image: linear-gradient(to right,rgb(255, 255, 255, 1), rgba(255, 255, 255, 0) );
 }
 
+/* My inspiration section style */
+
 .my-inspiration{
     text-align: center;
     height: 777px;
@@ -163,6 +178,8 @@ body{
     color: rgba(13, 19, 33, 0.8);
     padding-bottom: 48px;
 }
+
+/* Target section style */
 
 .target{
     width: 80%;
@@ -227,6 +244,8 @@ body{
     background-color: rgba(255, 223, 0, 0.05);
 }
 
+/* Support section style */
+
 .support{
     width: 80%;
     height: 400px;
@@ -275,6 +294,8 @@ form input{
     color: #0D1321;
 
 }
+
+/*  Footer style */
 .footer{
     background-color: rgba(13, 19, 33, 0.03);
 }
